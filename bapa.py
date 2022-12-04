@@ -163,7 +163,7 @@ while True:
         pixels.wakeup()
         # create an audio object
         # open the file for reading.
-        wf = wave.open('/home/pi/mic_hat/bapa.wav', 'rb')
+        wf = wave.open('/home/pi/psm-phonebooth/bapa.wav', 'rb')
         # read data (based on the chunk size)
         data = wf.readframes(chunk)
         # play stream (looping from beginning of file to the end)
