@@ -137,7 +137,7 @@ chunk = 1024
 RESPEAKER_INDEX = 1
 
 # open the file for reading.
-wf = wave.open('/home/pi/psm100-phonebooth/bapa.wav', 'rb')
+wf = wave.open('/home/pi/psm-phonebooth/bapa.wav', 'rb')
 
 p = pyaudio.PyAudio()
 
